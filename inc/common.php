@@ -28,6 +28,7 @@ function sys_session_create($userId, $force = FALSE){
     return "";
 }
 
+
 function sys_session_destroy(){
     $_SESSION = array();
     session_destroy();
